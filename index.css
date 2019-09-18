@@ -1,0 +1,20 @@
+body {
+    font-family: 'Satisfy', cursive;
+    background-color: rgb(46, 122, 65);
+}
+
+#main-header {
+    color: rgb(220, 60, 60);
+    text-align: center;
+    font-size: 100pt;
+}
+
+.tagline {
+    font-size: 25pt;
+    text-align: center;
+    color: rgb(255, 0, 234)
+}
+.subheaders {
+    font-size: 50pt
+    
+}
