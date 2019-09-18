@@ -1,6 +1,6 @@
 body {
     font-family: 'Satisfy', cursive;
-    background-color: rgb(46, 122, 65);
+    background-color: rgb(250, 242, 134);
 }
 
 #main-header {
@@ -14,7 +14,33 @@ body {
     text-align: center;
     color: rgb(255, 0, 234)
 }
+
 .subheaders {
     font-size: 50pt
-    
+    display: inline; 
+}
+
+.subsubheaders {
+    font-size: 30pt
+    display: inline; 
+}
+
+.container {
+    position: relative;
+    background: lightgray;
+}
+.box-orange {
+    position: absolute;
+    background: orange;
+    height: 100px;
+    width: 100px;
+    right: 5px;
+    top:5px;
+}
+
+.box-blue {
+    background: lightskyblue;
+    height: 100px;
+    width: 100px;
+    position: static;
 }
