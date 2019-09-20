@@ -44,3 +44,42 @@ body {
     width: 100px;
     position: static;
 }
+
+.box-red1 {
+    position: static;
+    background: red;
+    height: 100px;
+    width: 100px;
+}
+
+.box-gray1 {
+    position: static;
+    background: gray;
+    height: 100px;
+    width: 100px;
+}
+.box-orange1 {
+    position: fixed;
+    background: orange;
+    height: 100px;
+    width: 100px;
+    right: 5px;
+    top:250px;
+}
+
+.box-darkblue1 {
+    position: absolute;
+    background: darkblue;
+    height: 100px;
+    width: 100px;
+    right: 15px;
+    top:240px;
+}
+
+.box-blue1 {
+    position: relative;
+    background: lightskyblue;
+    height: 100px;
+    width: 100px;
+    top: 1000px;
+}
